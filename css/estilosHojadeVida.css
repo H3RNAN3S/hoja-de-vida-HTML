@@ -1,0 +1,82 @@
+/**.........LAYOUT..............*/
+
+.main-container {
+    display: flex;
+    width: 1200px;
+}
+
+
+/** .........GENERALES...........*/
+
+ul {
+    list-style: none;
+}
+
+
+/**...........ASIDE...............*/
+
+aside {
+    background-color: #8C7D87;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#profile-pic img {
+    border-radius: 50%;
+    border-block-end-color: blue;
+}
+
+aside {
+    color: #F2AE72;
+    /** color de la letra*/
+}
+
+aside h2 {
+    text-transform: uppercase;
+    /**convertir en mayusculas*/
+    letter-spacing: 5px;
+    /** espacios entre letras*/
+}
+
+aside section h2:first-child {
+    border-bottom: 2px solid white;
+}
+
+
+/**...........MAIN...............*/
+
+.hero {
+    background-color: #400601;
+    box-shadow: 5px 5px 10px 10px #D9806C inset;
+}
+
+.hero h2 {
+    color: white;
+    border-top: 2px solid white;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.perfil-me {
+    background-color: #8C7D87;
+}
+
+.perfil-me h2 {
+    background-color: white;
+}
+
+main section>h2 {
+    text-transform: uppercase;
+    /**convertir en mayusculas*/
+    letter-spacing: 5px;
+    /** espacios entre letras*/
+}
+
+article h3,
+article h5 {
+    font-weight: bold;
+}
+
+article ul {
+    list-style-type: square;
+}
